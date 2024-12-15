@@ -1,0 +1,5 @@
+---
+# defaults file for installing Zimbra
+zimbra_fqdn: mail.example.com
+zimbra_timezone: Asia/Kolkata
+zimbra_admin_password: password
