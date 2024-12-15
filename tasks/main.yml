@@ -1,8 +1,8 @@
 ---
 # tasks file for ZCS Installation
 
-- name: import zimbra10-ubuntu.yml
-  import_tasks: zimbra10-ubuntu.yml
+- name: import zcs-ubuntu.yml
+  import_tasks: zcs-ubuntu.yml
   when:
     - ansible_distribution == "Ubuntu"
     - ansible_distribution_version == "20.04"
